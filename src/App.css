@@ -1,0 +1,64 @@
+.ola{
+  background-color: greenyellow;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.p{
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+.button{
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+.forbut{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.para{
+  text-align: center;
+}
+.first{
+  text-align: center;
+}
+
+input{
+  box-shadow: 0px 0px 10px 1px cyan;
+}
+.forgreet{
+  background: grey;
+  padding: 50px;
+  width: fit-content;
+  color: white;
+}
+.p{
+  background: cyan;
+  border-radius: 10px;
+  font-family: cursive;
+}
+.change{
+  background: orange;
+  text-align: center;
+  padding: 20px;
+  width: fit-content;
+}
+h1{
+  color: white;
+  font-size: 900;
+  padding: 20px;
+}
+.cover{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
