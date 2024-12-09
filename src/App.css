@@ -62,3 +62,16 @@ h1{
   justify-content: space-between;
   align-items: center;
 }
+.butts{
+  background: orangered;
+  border: none;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.para{
+  background: orangered;
+  width: 200px;
+  padding: 20px;
+}
