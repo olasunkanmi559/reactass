@@ -36,8 +36,8 @@ function App() {
   let forreset = () => {
     setCount(0)
   }
-  
-     
+
+
   return (
     <div>
       <div className='ola'>
@@ -49,12 +49,14 @@ function App() {
       </div> <br /> <br />
       <div className="cover">
         <div className='forgreet'>
-          <input type="text" value={test} onChange={forola} className='inp'/><br />  <br />
-          <button className='didi' onClick={change}>
-            Greet me
-          </button>
+          <input type="text" value={test} onChange={forola} className='inp' /><br />  <br />
+          <center>
+            <button className='didi' onClick={change}>
+              Greet me
+            </button>
+          </center>
           <p id='p'>
-              
+
           </p>
         </div> <br /><br />
 
@@ -76,7 +78,7 @@ function App() {
           </div>
         </div>
       </div> <br /> <br />
-      <List/>
+      <List />
     </div>
 
 
