@@ -16,10 +16,10 @@ function App() {
       <div className='every'>
         <ul className='ull'>
           <ul><img src={image} alt="" /></ul>
-          <li> <Link className='koko' to='/'> HOME</Link> <br /> <br /></li>
-          <li> <Link className='koko' to='/list'>LIST</Link><br /> <br /></li>
-          <li> <Link className='koko' to='/Shops'>SHOPCART</Link> <br /> <br /></li>
-          <li> <Link className='koko' to='/crud'>JOBS</Link></li>
+          <li> <Link className='koko' to='/'> HOME</Link></li>
+          <li> <Link className='koko' to='/list'>LIST</Link></li>
+          <li> <Link className='koko' to='/Shops'>SHOPCART</Link></li>
+          <li> <Link className='koko' to='/crud'>JOBS</Link></li> 
           <li> <Link className='koko' to='/About'>ABOUT ME</Link> </li>
         </ul>
       </div>

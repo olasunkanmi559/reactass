@@ -218,6 +218,13 @@ input {
 }
 .koko{
   text-decoration: none;
+  color: brown;
+}
+.koko:hover{
+  content: "";
+  display: block;
+  transition: all 0.3s ease-in-out 0s;
+  border-bottom: 1px solid white;
 }
 .det{
   background: palevioletred;
