@@ -1,5 +1,5 @@
 import React from 'react'
-import App from './App'
+import Ola from './Ola'
 import Button from './Button'
 import logo from './assets/react.svg'
 

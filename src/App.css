@@ -1,4 +1,4 @@
-.ola{
+.ola {
   background-color: greenyellow;
   padding: 30px;
   display: flex;
@@ -7,12 +7,14 @@
   justify-content: space-between;
   align-items: center;
 }
-.p{
+
+.p {
   color: black;
   padding: 20px;
   text-align: center;
 }
-.button{
+
+.button {
   background-color: orange;
   border: none;
   color: black;
@@ -20,18 +22,22 @@
   width: 200px;
   cursor: pointer;
 }
-.forbut{
+
+.forbut {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.para{
+
+.para {
   text-align: center;
 }
-.first{
+
+.first {
   text-align: center;
 }
-.olasunkanmi{
+
+.olasunkanmi {
   padding: 30px;
   display: flex;
   flex-direction: row;
@@ -39,22 +45,26 @@
   justify-content: space-between;
   align-items: center;
 }
-input{
+
+input {
   box-shadow: 0px 0px 10px 1px cyan;
 }
-.forgreet{
+
+.forgreet {
   background: grey;
   padding: 50px;
   width: 500px;
   height: 240px;
   color: white;
 }
-.inp{
+
+.inp {
   width: 400px;
   padding: 20px;
   border: none;
 }
-#p{
+
+#p {
   height: 100px;
   font-size: 30px;
   background: cyan;
@@ -62,24 +72,28 @@ input{
   text-align: center;
   font-family: cursive;
 }
-.change{
+
+.change {
   background: orange;
   text-align: center;
   padding: 20px;
   width: 670px;
   height: 300px;
 }
-.h11{
+
+.h11 {
   color: white;
   font-size: 900;
   padding: 20px;
 }
-.cover{
+
+.cover {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.butts{
+
+.butts {
   background: orangered;
   border: none;
   color: black;
@@ -87,40 +101,161 @@ input{
   margin: 10px;
   cursor: pointer;
 }
-.para{
+
+.para {
   background: orangered;
   width: 200px;
   padding: 20px;
 }
-.didi{
+
+.didi {
   padding: 15px;
   width: 100px;
   border: none;
   cursor: pointer;
   background: cyan;
 }
-.olas{
+
+.olas {
   background: orange;
   text-align: center;
   padding: 30px;
   width: 500px;
 }
-.coco{
+
+.coco {
   display: flex;
   justify-content: space-between;
 }
-.overrall{
+
+.overrall {
   background: gold;
   text-align: center;
   width: 1000px;
   padding: 10px;
   margin: 10px;
 }
-.overrall>div img{
+
+.overrall>div img {
   width: 60%;
   height: 150px;
   border-radius: 100%;
 }
-.ola{
+
+.ola {
   display: flex;
+}
+
+.li {
+  background: blue;
+  color: white;
+  box-shadow: 0px 0px 15px 2px black;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 20px;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 400px;
+}
+
+.ol {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttsss {
+  background: plum;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+  font-weight: 900;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 17px !important;
+}
+
+.sec {
+  text-align: center;
+  font-weight: 900 !important; 
+  font-size: 20px !important;
+  text-transform: capitalize !important;
+}
+
+.catalog{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: olivedrab;
+  width: fit-content;
+  justify-content: space-evenly;
+}
+.chop img{
+  width: 200px;
+}
+.chop{
+  text-align: center;
+  background: gold;
+  margin: 20px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+}
+.ull{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background: gold;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.koko{
+  text-decoration: none;
+}
+.det{
+  background: palevioletred;
+  color: white;
+  padding: 20px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
+.det:hover{
+  background: red;
+}
+.About{
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(244, 244, 244);
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.About h1{
+  font-size: 40px;
+  color: rgb(51, 51, 51);
+}
+
+.About p{
+  font-size: 20px;
+  color: #555;
+}
+.ulp{
+  list-style-type: none;
+}
+.lip{
+  text-decoration: none;
+  color: red;
+  font-size: large;
+}
+.lip:hover{
+  color: blue;
 }
