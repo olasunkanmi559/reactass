@@ -214,7 +214,7 @@ input {
   background: gold;
   padding: 20px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .koko{
   text-decoration: none;
