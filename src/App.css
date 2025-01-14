@@ -164,7 +164,8 @@ input {
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; */
 }
 
 .buttsss {
@@ -213,7 +214,6 @@ input {
   background: gold;
   padding: 20px;
   align-items: center;
-  justify-content: center;
   justify-content: space-between;
 }
 .koko{

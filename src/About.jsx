@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import about from './assets/About.jpg'
 
 const About = () => {
   
@@ -9,6 +10,7 @@ const About = () => {
         <h1>
           About Me
         </h1>
+        <img src={about} alt="" />
         <p>
           Hi, i am Tunji Olasukanmi. I'm a passionate web developer with a strong interest in front-end technologies.
           I love creating intuitive and user-friendly website. In my free time, i practice what i have learnt, learning new technologyies, and exploring innovative ways to solve problems.
