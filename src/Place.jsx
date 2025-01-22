@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 const Place = (person) => {
     return (
-        <div className='overrall'>
+        <div className='overrall col-sm'>
             <div>
                 <img src={person.photo} alt="" />
             </div>

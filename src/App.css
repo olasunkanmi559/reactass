@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   text-align: center;
+  /* width: 1000px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -53,8 +54,8 @@ input {
 .forgreet {
   background: grey;
   padding: 50px;
-  width: 500px;
-  height: 240px;
+  /* width: 100px; */
+  /* height: 240px;  */
   color: white;
 }
 
@@ -77,8 +78,8 @@ input {
   background: orange;
   text-align: center;
   padding: 20px;
-  width: 670px;
-  height: 300px;
+  width: 500px;
+  height: 363px;
 }
 
 .h11 {
@@ -92,7 +93,6 @@ input {
   justify-content: space-between;
   align-items: center;
 }
-
 .butts {
   background: orangered;
   border: none;
@@ -110,6 +110,7 @@ input {
 
 .didi {
   padding: 15px;
+  margin-bottom: 5px;
   width: 100px;
   border: none;
   cursor: pointer;
@@ -125,7 +126,7 @@ input {
 
 .coco {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .overrall {
@@ -265,4 +266,10 @@ input {
 }
 .lip:hover{
   color: blue;
+}
+
+@media screen and (max-width: 567px){
+    .ola{
+      background-color: red;
+    }
 }

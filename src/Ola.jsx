@@ -41,16 +41,14 @@ function Ola() {
 
 
   return (
-    <div>
-      <div className='ola'>
+    <div className='container'>
+      <div className='ola row'>
         <Input para={"Best 4G Network"} ola={"Enjoy SuperFast internet across Nigeria with 4G LTE data and SuperClear voice services"} />
         <Input para={"24x7 Help & support"} ola={"Our virtual chat assistant & Customer care services available to help you 24x7"} />
         <Input para={"Bestvalue"} ola={"Get the BestValue for your money our data and voice services"} /> <br /> <br /><br /><br /><br /><br />
-
-
       </div> <br /> <br />
-      <div className="cover">
-        <div className='forgreet'>
+      <div className="cover container row">
+        <div className='forgreet col-sm'>
           <input type="text" value={test} onChange={forola} className='inp' /><br />  <br />
           <center>
             <button className='didi' onClick={change}>
@@ -62,7 +60,7 @@ function Ola() {
           </p>
         </div> <br /><br />
 
-        <div className='change'>
+        <div className='change col-sm'>
           <h1 className='h11'>Counter App</h1>
           <center><p className='para'> {count} </p></center>
           <button onClick={forcount} className='butts'>Icrease</button>
@@ -70,7 +68,7 @@ function Ola() {
           <button onClick={forreset} className='butts'>Reset</button> <br />
         </div>
       </div> <br />  <br /> <br /><br />
-      <div className="olas">
+      <div className="olas container">
         <h1 className='h1'>Stock</h1>
         <div>
           <div className='coco'>

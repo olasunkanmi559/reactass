@@ -53,8 +53,7 @@ const list = () => {
 
     return (
         <div>
-
-            <div className='olasunkanmi'>
+            <div className='olasunkanmi row'>
                 {
                     details.map((eachperson, i) => (
                         <Place
